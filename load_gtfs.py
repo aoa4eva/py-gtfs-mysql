@@ -35,6 +35,8 @@ def main():
                     
             insert_sql = "INSERT INTO %s (%s) VALUES (%s);" % (table, ','.join(columns), ','.join(insert_row))        
             cursor.execute(insert_sql)
+            #Added to save data to the database. The script was running without actually storing data. 
+            conn.commit()
 
     cursor.close ()
     conn.close ()
