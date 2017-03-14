@@ -1,11 +1,11 @@
 GTFS MySQL IMPORT SCRIPT
 Author: Tom Lee (thomas.j.lee@gmail.com)
+Modified for Montgomery County by: Afua Ankomah (hi@aoa4eva.me) 
+Latest modifiations using Montgomery County GTFS files from: http://www.montgomerycountymd.gov/DOT-Transit/GTFS/GTFSfiles.html
 
 This is a simple set of scripts that will import a GTFS dataset into
 a lightweight MySQL database.  The work is based on Washington, DC's
-WMATA GTFS dataset, and has not been thoroughly checked for completeness
-against the GTFS spec -- some optional fields or tables may not 
-currently be supported (but should be trivial to add).
+WMATA GTFS dataset, but is being modified specifically for Montgomery County's GTFS dataset. 
 
 In addition to the GTFS fields, a number of columns have been created
 to assist in the conversion of GTFS's string-based date/time 
@@ -13,7 +13,7 @@ representations to more useful Unix timestamp-style second counts.
 
 DEAD-SIMPLE USAGE:
 
-1. Create a database, e.g. CREATE DATABASE gtfs
+1. Create a database, e.g. CREATE DATABASE MOCOGTFS
 
 2. Run table creation scripts against the database:
 
