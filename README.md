@@ -1,15 +1,12 @@
 #  GTFS MySQL IMPORT SCRIPT
+----------------------------
 ### Author: Tom Lee (thomas.j.lee@gmail.com)
 ### Modified for Montgomery County by: Afua Ankomah (hi@aoa4eva.me) 
 Latest modifiations using Montgomery County GTFS files from: http://www.montgomerycountymd.gov/DOT-Transit/GTFS/GTFSfiles.html
 
-This is a simple set of scripts that will import a GTFS dataset into
-a lightweight MySQL database.  The work is based on Washington, DC's
-WMATA GTFS dataset, but is being modified specifically for Montgomery County's GTFS dataset. 
+- This is a simple set of scripts that will import a GTFS dataset into a lightweight MySQL database.  The work is based on Washington, DC's WMATA GTFS dataset, but is being modified specifically for Montgomery County's GTFS dataset. 
 
-In addition to the GTFS fields, a number of columns have been created
-to assist in the conversion of GTFS's string-based date/time 
-representations to more useful Unix timestamp-style second counts.
+- In addition to the GTFS fields, a number of columns have been created to assist in the conversion of GTFS's string-based date/time representations to more useful Unix timestamp-style second counts.
 
 DEAD-SIMPLE USAGE:
 
@@ -33,5 +30,6 @@ DEAD-SIMPLE USAGE:
 	
 7. Build something neat
 
-For a sample of what's possible, visit: http://104.207.133.184/mocobusapi/
+For a sample of what's possible, visit: http://104.207.133.184/mocobuschedules/
+
 This is a simple site developed to showcase the data retrieved from the Montgomery County MD website.
