@@ -1,9 +1,9 @@
 #  GTFS MySQL IMPORT SCRIPT
 
-### Author: Tom Lee (thomas.j.lee@gmail.com)
+#### Author: Tom Lee (thomas.j.lee@gmail.com)
 #### Modified for Montgomery County by: Afua Ankomah (hi@aoa4eva.me) 
 ##### Latest modifications using Montgomery County GTFS files from: 
-http://www.montgomerycountymd.gov/DOT-Transit/GTFS/GTFSfiles.html
+##### http://www.montgomerycountymd.gov/DOT-Transit/GTFS/GTFSfiles.html
 ---
 - This is a simple set of scripts that will import a GTFS dataset into a lightweight MySQL database.  The work is based on Washington, DC's WMATA GTFS dataset, but is being modified specifically for Montgomery County's GTFS dataset. 
 
