@@ -7,7 +7,7 @@
 - This is a simple set of scripts that will import a GTFS dataset into a lightweight MySQL database.  The work is based on Washington, DC's WMATA GTFS dataset, but is being modified specifically for Montgomery County's GTFS dataset. 
 
 - In addition to the GTFS fields, a number of columns have been created to assist in the conversion of GTFS's string-based date/time representations to more useful Unix timestamp-style second counts.
-
+---
 DEAD-SIMPLE USAGE:
 
 1. Create a database, e.g. CREATE DATABASE MOCOGTFS
