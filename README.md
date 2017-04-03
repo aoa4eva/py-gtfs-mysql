@@ -15,7 +15,7 @@ DEAD-SIMPLE USAGE:
 
 2. Run table creation scripts against the database:
 
-	cat sql/*.sql | mysql -p -u USERNAME -h HOST -D gtfs
+	cat sql/*.sql | mysql -p -u USERNAME -h HOST -D mocogtfs
 	
 3. Edit settings.py with your mysql details.
 
