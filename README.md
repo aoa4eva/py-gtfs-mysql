@@ -31,6 +31,4 @@ DEAD-SIMPLE USAGE:
 	
 7. Build something neat
 
-For a sample of what's possible, visit: http://104.207.133.184/mocobuschedules/
-
 This is a simple site developed to showcase the data retrieved from the Montgomery County MD website.
